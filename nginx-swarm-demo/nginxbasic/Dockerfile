@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.21
 
 # copy the cert and key
 COPY swarmdemo.selfcrt /root/swarmdemo.crt
