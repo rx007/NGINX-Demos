@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:stable
 
 COPY start.sh /usr/local/sbin
 RUN chmod +x /usr/local/sbin/start.sh
