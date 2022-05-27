@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:stable
 MAINTAINER Nick Shadrin <nick@nginx.com>
 
 COPY ./start.sh /usr/share/nginx/html/start.sh
