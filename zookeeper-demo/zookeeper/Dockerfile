@@ -1,5 +1,5 @@
 # For Ubuntu 18
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 LABEL name="zookeeper" version="3.4.13"
 
