@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 RUN apt-get update && apt-get install -y golang-go git
 ENV GOPATH /
 RUN go get github.com/dustin/go-coap
