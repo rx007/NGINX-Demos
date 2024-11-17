@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Kunal Pariani <kunal.pariani@nginx.com>
 ENV DEBIAN_FRONTEND noninteractive
 
